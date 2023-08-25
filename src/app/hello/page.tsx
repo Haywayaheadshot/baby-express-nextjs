@@ -1,3 +1,4 @@
+import React from "react";
 import NavWrapper from "../navWrapper";
 
 const Hello = () => {
