@@ -1,5 +1,6 @@
 import NavWrapper from './navWrapper';
 import type { Metadata } from 'next';
+import Products from './product/product';
 
 export const metadata: Metadata = {
   title: 'Baby Express | Home Page',
@@ -16,6 +17,7 @@ export default function Home() {
             Our products are sourced from United States, Turkey and in some cases
             China.
         </p>
+        <Products />
       </main>
     </NavWrapper>
   )
